@@ -21,7 +21,7 @@ export default function Box(props) {
       {...props}
     >
       <boxGeometry />
-      <meshStandardMaterial color={hovered ? "hotpink" : "orange"} />
+      <meshStandardMaterial color={hovered ? "hotpink" : "red"} />
     </mesh>
   );
 }

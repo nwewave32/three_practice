@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  user-select: none;
+  -ms-user-select: none;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: "Quicksand", "Noto Sans KR";
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+html,
+body {
+  overscroll-behavior-y: none; /* 상하 바운스 효과 방지 */
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #264653; /*point color*/
+  font-weight: 400;
+  word-break: keep-all;
+}
+
+h2 {
+  font-size: 4vh;
+}
+
+h3 {
+  font-size: 3vh;
+}
+
+span {
+  font-size: 1.8vh;
+}
+
+p,
+li,
+div {
+  font-weight: 200;
+  color: #050505;
+  text-decoration: none;
+  word-break: keep-all;
+  font-size: 1.8vh;
+}
+
+textarea,
+input {
+  font-size: 1.5vh;
+}
+
+label {
+  font-size: 2vh;
+}
+
+button {
+  font-size: 2vh;
+}
+
+a {
+  color: #81c9c1;
+}
+
+svg {
+  font-weight: bold;
+
+  height: auto;
+}
