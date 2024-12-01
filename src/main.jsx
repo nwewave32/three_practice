@@ -1,10 +1,12 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App.jsx";
+import Main from "./pages/main";
 import "./reset.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
+    <div id="canvas-container">
+      <Main />
+    </div>
   </StrictMode>
 );
